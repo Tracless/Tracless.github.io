@@ -1,0 +1,26 @@
+* {
+    border: 1px solid #be2a2a
+}
+
+
+
+.btn {
+    background-color: rgba(53, 149, 162, 0.46);
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #2d2dff;
+}
+
+.articlesheader {
+    margin-top: 20px;
+    font-size: 30px;   
+}
+
+.articletitle {
+    font-size: 20px;
+    margin-top: 7px;   
+}
+
+.article {
+    margin-top: 5px;
+}
