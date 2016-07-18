@@ -1,0 +1,46 @@
+* {
+    border: 1px solid #be2a2a
+}
+
+
+.top {
+    text-align: center;
+}
+.btn {
+    background-color: rgba(53, 149, 162, 0.46);
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #2d2dff;
+    margin-top: 1px;
+}
+
+.articlesheader {
+    margin-top: 20px;
+    font-size: 30px;   
+}
+
+.articletitle {
+    font-size: 20px;
+    margin-top: 7px;
+    
+}
+
+.article {
+    margin-top: 5px;
+    
+}
+
+.erde {
+    
+    background-image: url('../images/erde.png');
+    background-repeat: no-repeat;
+    height: 145px;
+    background-position: center;
+    background-color:rgba(1, 3, 5, 0.5)
+    
+}
+
+h1 {
+    font-family: 'Audiowide', cursive; 
+    text-align: center;
+}
