@@ -7,11 +7,24 @@ $(document).ready(function() {
         
     }
   );
+    $(".contactbutton").hover(function(){
+        $(this).addClass("contactbutton2");
+        },
+        function(){
+            $(this).removeClass("contactbutton2");
+           
+    });
+    
+    $(".right2").click(function() {
+        $(".contactpopup").toggleClass("contactpopuptoggle");
+    });
+});
+
+
+
 
     
 
-});
-       
 
 
 

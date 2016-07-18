@@ -7,6 +7,7 @@
     text-align: center;
 }
 
+/* Button css*/
 .pseudo {
     background-color: rgba(53, 149, 162, 0.46);
     border-radius: 5px;
@@ -18,16 +19,14 @@
     text-align: center;
     display: inline-block;
     line-height: 45px;
+    color: black;
 }
 .pseudo2 {
     background-color: rgba(49, 80, 185, 0.46);
+    
 }
 
 
-a {
-   color: inherit;
-   
-}
 
 .articlesheader {
     margin-top: 20px;
@@ -48,6 +47,7 @@ a {
     
 }
 
+/*Header pic*/
 .erde {
     
     background-image: url('../images/erde.png');
@@ -71,8 +71,59 @@ h3 {
     text-align: center;
 }
 
+/*zentriertes bild*/
 .test {
     margin: 0 auto;
     border-radius: 2px;
 }
+
+.aboutlinks:hover, .aboutlinks:visited, .aboutlinks:link, .aboutlinks:active {
+    color: blue;
+}
+
+.myself {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.socialgrid {
+    margin: 20px;
+    
+}
+
+.left1 {
+    position: absolute;
+    left: 430px;
+}
+.left2 {
+    position: absolute;
+    left: 430px;
+}
+
+.contactpopup {
+    visibility: hidden;
+}
+
+.contactpopuptoggle {
+    visibility: visible;
+    border: 1px dashed red;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    left: 755px;
+    bottom: 140px;    
+    background: #eee;
+    border: 1px solid #DDD;
+    background: -moz-linear-gradient(top, #EEE, #FFF);    
+    background: -webkit-linear-gradient(top, #eee, #fff);
+    background: -ms-linear-gradient(top, #eee, #fff);
+    background: -o-linear-gradient(top, #eee, #fff);
+    box-shadow: 1px 2px 4px rgba(0,0,0, .2);
+}
+    
+}
+
+
+
+
 
