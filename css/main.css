@@ -1,32 +1,50 @@
 * {
-    border: 1px solid #be2a2a
+    border: 0px solid #be2a2a
 }
 
 
 .top {
     text-align: center;
 }
-.btn {
+
+.pseudo {
     background-color: rgba(53, 149, 162, 0.46);
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 22px;
     border: 1px solid #2d2dff;
-    margin-top: 1px;
+    margin: 1px;
+    height: 45px;
+    width: 287.5px;
+    text-align: center;
+    display: inline-block;
+    line-height: 45px;
+}
+.pseudo2 {
+    background-color: rgba(49, 80, 185, 0.46);
+}
+
+
+a {
+   color: inherit;
+   
 }
 
 .articlesheader {
     margin-top: 20px;
-    font-size: 30px;   
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .articletitle {
     font-size: 20px;
     margin-top: 7px;
+    font-weight: bold;
     
 }
 
 .article {
     margin-top: 5px;
+    font-size: 15px;
     
 }
 
@@ -44,3 +62,17 @@ h1 {
     font-family: 'Audiowide', cursive; 
     text-align: center;
 }
+
+h3 {
+    font-weight: bold;
+}
+
+.piccaption {
+    text-align: center;
+}
+
+.test {
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
