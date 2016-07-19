@@ -20,12 +20,12 @@
     display: inline-block;
     line-height: 45px;
     color: black;
+    
 }
 .pseudo2 {
     background-color: rgba(49, 80, 185, 0.46);
     
 }
-
 
 
 .articlesheader {
@@ -44,6 +44,7 @@
 .article {
     margin-top: 5px;
     font-size: 15px;
+    font-family: 'Raleway', sans-serif;
     
 }
 
@@ -69,6 +70,8 @@ h3 {
 
 .piccaption {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2px;
 }
 
 /*zentriertes bild*/
@@ -83,7 +86,8 @@ h3 {
 
 .myself {
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .socialgrid {
@@ -111,7 +115,8 @@ h3 {
     font-size: 16px;
     font-weight: bold;
     left: 755px;
-    bottom: 140px;    
+    bottom: 140px;
+    width: 400px;
     background: #eee;
     border: 1px solid #DDD;
     background: -moz-linear-gradient(top, #EEE, #FFF);    
@@ -121,9 +126,55 @@ h3 {
     box-shadow: 1px 2px 4px rgba(0,0,0, .2);
 }
     
+.überdieseite {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
 
+.aha {
+    height: 120px;
+    width: auto;
+    background-color: rgba(134, 126, 109, 0.43);
+    margin-top: 5px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
 
+.impressum {
+    font-size: 17px;
+    border: 1px solid rgba(134, 126, 109, 0.53);
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    left: 50px;
+    
+    
+    
+}
 
+.impressumfooter {
+    left: 100px;
+    top: 40px;
+    
+}
+
+.homefooter {
+  left: 200px;
+  top: 40px;
+  
+}
+
+.contactfooter {
+    left: 300px;
+    top: 40px;
+   
+}
+
+.imphover {
+   background-color: rgba(134, 126, 109, 0.55);
+}
 
 

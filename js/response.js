@@ -18,7 +18,16 @@ $(document).ready(function() {
     $(".right2").click(function() {
         $(".contactpopup").toggleClass("contactpopuptoggle");
     });
-});
+    $(".impressum").hover(function(){
+        $(this).addClass("imphover");
+    },
+    function(){
+        $(this).removeClass("imphover");
+    
+   
+    });
+    });
+
 
 
 
