@@ -212,3 +212,8 @@ h3 {
     color: black;
     text-decoration: none;
 }
+
+.article2pic {
+    width: 500px;
+    height: auto;
+}
