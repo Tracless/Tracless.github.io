@@ -1,8 +1,10 @@
+
+/* für test zwecke*/
 * {
     border: 0px solid #be2a2a
 }
 
-
+/* seiten name */
 .top {
     text-align: center;
 }
@@ -19,74 +21,79 @@
     text-align: center;
     display: inline-block;
     line-height: 45px;
-    color: black;
-    
+    color: black;    
 }
+/* jquery class für buttons oben */
 .pseudo2 {
-    background-color: rgba(49, 80, 185, 0.46);
-    
+    background-color: rgba(49, 80, 185, 0.46);   
 }
 
-
+/* vorher artikel header des obersten, neuesten artikels*/
 .articlesheader {
     margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
 }
 
+/* titel der artikel-vorschau auf homepage */
 .articletitle {
     font-size: 20px;
     margin-top: 7px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
+/* bild der artikel vorschau */
 .articlepicpreview {
     border-radius: 5px;
     border: 0px solid red;
 }
 
+/* Artikel header für normale artikel*/
 .singlearticletitle {
     margin-top: 40px;
     font-size: 30px;
     font-weight: bold;
-           
+    margin-left: 50px;
+    margin-right: 50px;         
 }
 
+/* artikel vorschau text */
 .article {
     margin-top: 5px;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
-    
+    font-family: 'Raleway', sans-serif;   
 }
 
+/* standard artikel text */
 .fullarticle {
     margin-top: 5px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif; 
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-/*Header pic*/
+/*Seiten logo*/
 .erde {
-    
     background-image: url('../images/erde.png');
     background-repeat: no-repeat;
     height: 145px;
     background-position: center;
-    background-color:rgba(1, 3, 5, 0.5)
-    
+    background-color:rgba(1, 3, 5, 0.5) 
 }
 
+/* seiten name oben*/
 h1 {
     font-family: 'Audiowide', cursive; 
     text-align: center;
 }
 
+/* ? */
 h3 {
     font-weight: bold;
 }
 
-/*caption for pictures in articles*/
+/*bild unterschrift in normalen artikeln*/
 .piccaption {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -99,39 +106,44 @@ h3 {
     margin: 0 auto;
     border-radius: 3px;
     margin-top: 20px;
-    margin-bottom: 20px;
-     
+    margin-bottom: 20px;   
 }
 
+/* entfernt hover blau + unterstrichen */
 .aboutlinks:hover, .aboutlinks:visited, .aboutlinks:link, .aboutlinks:active {
     color: blue;
 }
 
+/* style für contact seite */
 .myself {
     font-size: 20px;
     margin-top: 5px;
     font-family: 'Raleway', sans-serif;
 }
 
+/* abstand für social media grid auf contact seite */
 .socialgrid {
-    margin: 20px;
-    
+    margin: 20px;  
 }
 
-/*social grid positioning*/
+/* social grid positioning */
 .left1 {
     position: absolute;
     left: 430px;
 }
+
+/* social grid positioning */
 .left2 {
     position: absolute;
     left: 430px;
 }
 
+/* klasse für klickbare kontaktdaten */
 .contactpopup {
     visibility: hidden;
 }
 
+/* klasse für klickbare kontaktdaten */
 .contactpopuptoggle {
     visibility: visible;
     border: 1px dashed red;
@@ -149,7 +161,8 @@ h3 {
     background: -o-linear-gradient(top, #eee, #fff);
     box-shadow: 1px 2px 4px rgba(0,0,0, .2);
 }
-    
+
+/* ?? */
 .überdieseite {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -165,6 +178,7 @@ h3 {
     margin-right: 210px;
 }
 
+/* impressum boxen */
 .impressum {
     font-size: 17px;
     border: 1px solid rgba(134, 126, 109, 0.53);
@@ -174,45 +188,45 @@ h3 {
     text-align: center;
     line-height: 40px;
     color: black;
-    left: 50px;
-    
-    
-    
+    left: 50px;  
 }
 
+/* einzelner button im impressum - position */
 .impressumfooter {
     left: 100px;
-    top: 40px;
-    
+    top: 40px;   
 }
 
+/* einzelner button im impressum - position */
 .homefooter {
   left: 200px;
-  top: 40px;
-  
+  top: 40px;  
 }
 
+/* einzelner button im impressum - position */
 .contactfooter {
     left: 300px;
-    top: 40px;
-   
+    top: 40px;  
 }
 
+/* klasse für impressum button hover */
 .imphover {
    background-color: rgba(134, 126, 109, 0.55);
 }
 
-/* removes blue links for clickable articles*/
+/* entfernt blau + unterstrichen bei link-hover*/
 .bluelinkremover {
     text-decoration: none;
     color: black;
 }
 
+/* entfernt blau + unterstrichen bei link-hover*/
 .bluelinkremover:hover, .bluelinkremover:visited, .bluelinkremover:link, .bluelinkremover:active {
     color: black;
     text-decoration: none;
 }
 
+/* größen anpassung des bilds im "How to make the best out of 20 seconds outside the house" artikel */
 .article2pic {
     width: 500px;
     height: auto;
